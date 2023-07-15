@@ -42,9 +42,9 @@ function  removeAdmin(){
 
 function concatenateArray(){
     let newArr = [
-        {id:4,name:"kate",age:"32",profession:"sales"},
-        {id:5,name:"lan",age:"25",profession:"Manager"},
-        {id:6,name:"peter",age:"21",profession:"Product Enginers"}
+        {id:4,name:"kate",age:"32",profession:"tester"},
+        {id:5,name:"lan",age:"25",profession:"designer"},
+        {id:6,name:"peter",age:"21",profession:"data scientist"}
 
     ]
      
