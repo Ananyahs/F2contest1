@@ -1,9 +1,10 @@
-let arr = [
-    {id:1,name:"john",age:"18",profession:"developer"},
-    {id:2,name:"vivek",age:"19",profession:"developer"},
-    {id:3,name:"harsh",age:"20",profession:"admin"}
-]
+/** @format */
 
+let arr = [
+  { id: 1, name: "john", age: "18", profession: "developer" },
+  { id: 2, name: "jack", age: "20", profession: "developer" },
+  { id: 3, name: "karen", age: "19", profession: "admin" },
+];
 function PrintDeveloperbyMap(){
     arr.map((employee)=>{
         if(employee.profession === "developer"){
@@ -22,7 +23,7 @@ function PrintDeveloperbyForEach(){
 
 function addData(){
     const newEmployee = 
-        {id:4,name:"Shushant",age:"20",profession:"Intern"}
+        {id:4,name:"susan",age:"20",profession:"intern"}
     
     arr.push(newEmployee);
     console.log(newEmployee);
@@ -41,9 +42,9 @@ function  removeAdmin(){
 
 function concatenateArray(){
     let newArr = [
-        {id:10,name:"muskan",age:"22",profession:"sales"},
-        {id:22,name:"jack",age:"21",profession:"Manager"},
-        {id:33,name:"karan",age:"24",profession:"Product Enginers"}
+        {id:4,name:"kate",age:"32",profession:"sales"},
+        {id:5,name:"lan",age:"25",profession:"Manager"},
+        {id:6,name:"peter",age:"21",profession:"Product Enginers"}
 
     ]
      
